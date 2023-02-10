@@ -232,7 +232,7 @@ export default class MagnetMouse {
 
   init() {
     let posMouse;
-    let posElement;
+    let posElement = [];
     let mobileTablet = MagnetMouse.mobileAndTabletcheck();
 
     // Check if user is in mobile or tablet
